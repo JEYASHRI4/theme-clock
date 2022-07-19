@@ -1,0 +1,50 @@
+#toggleButton{
+    align-content: center;
+    transform: translate(-200px,-240px);
+}
+
+#clockimage{
+    transform: translate(-300px,-400px);
+    height: 200px;
+}
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+#minute{
+    width:0.3%;
+    height: 20%;
+    top:10%;
+    left:38%;
+    opacity: 0.8;
+}
+#hour{
+    width:0.5%;
+    height: 20%;
+    top:10%;
+    left:38%;
+    opacity: 0.6;
+}
+#second{
+    width: 0.2%;
+    height: 20%;
+    top:10%;
+    left:38%;
+    opacity: 0.4;
+}
+#style{
+    text-align: center;
+    transform: translate(-150px,-150px);
+    font-size: 29px;
+}
+#dark{
+    background-color: black;
+    color:white;
+}
+
+
+
